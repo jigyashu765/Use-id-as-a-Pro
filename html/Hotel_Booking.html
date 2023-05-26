@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking | Gaya Ji Dham</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!----1st Section start---->
+	<header class="navbar">
+		<nav>
+			<div class="logo-section">
+				<a class="logo" id="link1"><img src="../image/Logo.png" alt="Gaya Ji Dham"></a>
+			</div>
+			<ul>
+				<li><a id="link1"></a></li>
+				<li><a id="link2"></a></li>
+				<li><a id="link3"></a></li>
+				<li><a id="link4"></a></li>
+            </ul>
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Type Here..." name="search">
+                  <button type="submit">Search</button>
+                </form>
+              </div>
+		</nav>
+	</header>
+
+    <!----2nd Section start---->
+    <div class="Heritage">
+        <div class="location">
+            <h1>Book Your Hotel Now <br><span>& Get Upto <u>20%</u> Off</span></h1>
+            <h1></h1>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br>
+
+                <label for="checkin">Check-In Date:</label>
+                <input type="date" id="checkin" name="checkin" required><br>
+
+                <label for="checkout">Check-Out Date:</label>
+                <input type="date" id="checkout" name="checkout" required><br>
+
+                <label for="room-type">Room Type:</label>
+                <select id="room-type" name="room-type" required>
+                    <option value="" disabled selected>Select a room type</option>
+                    <option value="single">Single</option>
+                    <option value="double">Double</option>
+                    <option value="suite">Suite</option>
+                </select><br>
+
+                <label for="num-rooms">Number of Rooms:</label>
+                <input type="number" id="num-rooms" name="num-rooms" required min="1" max="10"><br>
+
+                <label for="num-guests">Number of Guests:</label>
+                <input type="number" id="num-guests" name="num-guests" required min="1" max="10"><br>
+
+                <label for="special-requests">Special Requests:</label>
+                <textarea id="special-requests" name="special-requests"></textarea><br>
+
+                <button type="submit" value="Book Now">Book Now</button>
+            </form>
+        </div>
+    </div>
+
+    <!----4th Section start---->
+    <footer class="end-section">
+        <div class="footer-area">
+            <div class="">
+                <a id="link1" href=""><img src="../image/bhagwan Buddha.jpg" alt=""></a>
+            </div>
+            <div class="">
+                <h3>importent Links</h3>
+                <nav>
+                    <ul>
+                        <li><a id="link1"></a></li>
+                        <li><a id="link2"></a></li>
+                        <li><a id="link3"></a></li>
+                        <li><a id="link4"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="">
+            <p> &#169; Copyright 2022-23 by Ranchi University.</p>
+        </div>    
+    </footer>
+</body>
+<script src="../js/scripts.js"></script>
+</html>

@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+/* Defult Propety */
+
+a{
+    color: #3f3f3f;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+   }
+a:hover{
+    color:  #1a1625;
+    transition: .4s;
+}
+
+button {
+    background-color: #3f3f3f;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+  
+button:hover {
+    border-radius: 5px 25px;
+    background-color: #182848;
+    color: #ffffff;
+}
+
+h1, h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* index page */
+
+.navbar{
+    height: auto;
+	width: 100%;
+    position: sticky;
+    background-color: white;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 8%;
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+}
+   
+.logo{
+    Cursor: pointer;
+}
+   
+.logo img{
+    height: 48px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav .search-container {
+    float: right;
+}
+
+nav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 2px solid #3f3f3f;
+}
+
+.Section-2nd{
+    height: 85vh;
+    width: 100%;
+    background-image: url("../image/1st.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Section-2nd div{
+    background: white;
+    color: #1a1625;
+    text-align: center;
+    transform: translateY(180%);
+}
+
+.welcome h1, h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.welcome h2{
+    text-decoration: underline;
+}
+
+.Section-3rd{
+    margin: 80px auto;
+    height: 50vh;
+    width: 50%
+}
+
+.Section-3rd h1{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.Section-3rd p{
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.Section-4th{
+    margin: 20px auto;
+    height: 80vh;
+    width: 90%
+}
+
+.location{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.location .googlelocation{
+    height: 65%;
+    width: 100%;
+    margin: 0px 20px;
+}
+
+.location h1{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.location .googlelocation iframe{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.location .vistingplace{
+    height: 100%;
+    width: 100%;
+    margin: 0px 20px;
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 200px;
+}
+
+.card{
+	height: 180px;
+	width: 250px;
+	padding: 10px 15px;
+	background: #ffffff;
+	border-radius: 10px;
+	margin: 5px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+} 
+
+.box img{
+    height: 120px;
+    position: relative;
+}
+
+.end-section{
+    background-color: #4234fa;
+    height: auto;
+    width: 100%
+}
+
+.footer-area{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    height: 100%;
+    width: 40%
+}
+
+.footer-area div{
+    margin: 10px 0;
+}
+
+.footer-area img{
+    height: 250px;
+    width: 200px;
+}
+
+.footer-area nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-area nav ul a{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.end-section p{
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* Heritage Page */
+
+.Heritage{
+    margin: 20px auto;
+    width: 90%
+}
+
+.Heritage .card{
+	height: 300px;
+	width: 250px;
+	padding: 10px 15px;
+	background: #ffffff;
+	border-radius: 15px;
+	margin: 10px;
+} 
+
+.Heritage .box img{
+    height: 250px;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hotel Booking Page */
+
+.location{
+	width: 80%;
+	margin: 0px auto 0px auto;
+	color: white;
+}
+
+.location h1{
+    align-self: center;
+}
+
+.location form {
+	max-width: 600px;
+	margin: auto;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.location input, select, textarea {
+    margin: 5px 0px 5px 0px;
+	width: 100%;
+	padding: 12px;
+	border-radius: 10px;
+	resize: vertical;
+}
+
+.location input[type=radio] {
+	width: min-content;
+}
+
+.location label {
+    margin: 10px;
+	font-size: 20px;
+}
+
+.location button{
+    margin: 20px 0px 0px 0px;
+    font-size: 30px;
+	width: 100%;
+}
+
+/* Gallery Page */
+
+.location{
+	width: 80%;
+	margin: 0px auto 0px auto;
+	color: white;
+}
+
+.main-gallery h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.main-gallery{
+    margin: 20px auto;
+    width: 100%
+}
+
+.main-gallery .location{
+    width: 100%
+}
+
+.gallery p{
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 10px auto;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+  
+.gallery img {
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+  
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Haritage page */
+
+.blog{
+    margin: auto;
+    width: 80%;
+}
+
+.blog h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.blog h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.blog-content{
+    /* display: flex; */
+}
+
+.blog-content img{
+    float: left;
+    border: 2px solid #1a1625;
+    margin: 5px;
+    height: 200px;
+}
+
+.blog-content p{
+    color: #ececec;
+    text-align: justify;
+    margin: 0px 20px;
+    font-size: 20px;
+}
